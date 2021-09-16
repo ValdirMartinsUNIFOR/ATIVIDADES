@@ -1,0 +1,47 @@
+* {
+    color:indigo;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#f1 {
+    color:white;
+    font-size:70px;
+}
+#f2 {
+    color:white;
+    font-size:20px;
+}
+#f3 {
+    color:indigo;
+    font-size:30px;
+}
+li{
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
+}
+.area {
+    border-radius:10px;
+}
+.linha1 {
+    height:160px;
+}
+.linha2 {
+    height:150px;
+    background-color:indigo;
+}
+.linha3 {
+    height:400px;
+}
+.tabela {
+    background-color:white;
+    margin-top:150px;
+    border-radius:30px;
+    border:0;
+    width:60%;
+    height:500px;
+}
+.button {
+    border-radius:10px;
+    background-color:indigo;
+    color:white;
+}

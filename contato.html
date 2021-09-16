@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="icon.png">
+        <title>Hearth+</title>
+        <link rel="stylesheet" type="text/css" href="Estilo.css">
+    </head>
+
+    <script>
+        function enviar() {
+            alert("SUA MENSAGEM FOI ENVIADA");
+        }
+    </script>
+
+    <body style="background-color:indigo;">
+        <table class="tabela" align="center">
+            <tr class="linha1">
+                <td align="center">
+                    <a href="Página 1.html"><img src="icon.png" width="150px"></a>
+                </td>
+            </tr>
+            <tr class="linha2">
+                <td align="center">
+                    <b id="f1">Hearth<span style="color:black">+</span></b> <br>
+                    <ul>
+                        <li><a id="f2" href="index.html">HOME</a></li>
+                        <li><a id="f2" href="local.html">LOCAL</a></li>
+                        <li><a id="f2" href="">CONTATO</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="linha3">
+                <td align="center">
+                    <form action="https://formsubmit.co/valdirmartins2502@edu.unifor.br" target="_blank" method="POST">
+                        <p><strong id="f3">CONTATO</strong></p>
+                        <strong>ASSUNTO</strong> <br>
+                        <input class="area" type="text" name="name"> <p>
+                        <strong>E-MAIL</strong> <br>
+                        <input class="area" type="text" name="email"> <p>
+                        <strong>DESCRIÇÃO</strong> <br>
+                        <textarea style="width:500px;height:134px;border-radius:10px;" name="message"></textarea> <p>
+                        <input class="button" type="submit" value="ENVIAR" onclick="enviar()">
+                        <input class="button" type="reset" value="LIMPAR">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

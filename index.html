@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="icon.png">
+        <title>Hearth+</title>
+        <link rel="stylesheet" type="text/css" href="Estilo.css">
+    </head>
+
+    <script>
+        function registrar() {
+            alert("SUA CONSULTA FOI REGISTRADA");
+        }
+    </script>
+
+    <body style="background-color:indigo;">
+        <table class="tabela" align="center">
+            <tr class="linha1">
+                <td align="center">
+                    <a href=""><img src="icon.png" width="150px"></a>
+                </td>
+            </tr>
+            <tr class="linha2">
+                <td align="center">
+                    <b id="f1">Hearth<span style="color:black">+</span></b> <br>
+                    <ul>
+                        <li><a id="f2" href="">HOME</a></li>
+                        <li><a id="f2" href="local.html">LOCAL</a></li>
+                        <li><a id="f2" href="contato.html">CONTATO</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="linha3">
+                <td align="center">
+                    <form>
+                        <p><b id="f3">REGISTRAR CONSULTA</b></p>
+                        <strong>E-MAIL</strong> <br>
+                        <input class="area" type="email" name="EMAIL"> <P>
+                        <strong>CPF</strong> <br>
+                        <input class="area" type="number" name="CPF"> <p>
+                        <strong>TELEFONE</strong> <br>
+                        <input class="area" type="number" name="TELEFONE"> <p>
+                        <strong>ESPECIALIDADE</strong> <br>
+                        <select class="area" name="ESPECIALIDADE">
+                            <option selected disabled value="" align="center">SELECIONE</option>
+                            <option align="center">CARDIOLOGIA</option>
+                            <option align="center">GINECOLOGIA</option>
+                            <option align="center">DERMATOLOGIA</option>
+                            <option align="center">NEUROLOGIA</option>
+                            <option align="center">PSCICOLOGIA</option>
+                            <option align="center">OFTALMOLOGIA</option>
+                        </select> <p>
+                        <strong>DATA E HORA</strong> <br>
+                        <input class="area" type="datetime-local" name="DATA E HORA"> <p>
+                        <input class="button" type="submit" value="REGISTRAR" onclick="registrar()">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
